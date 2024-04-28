@@ -35,8 +35,6 @@ header {
 }
 
 .text-container {
-    margin: 0;
-
     h1 {
         font-size: 28px;
         font-weight: bold;
@@ -110,7 +108,7 @@ header {
         overflow: hidden;
     }
     .nav-bar.active {
-        height: 450px;
+        height: 400px;
     }
     .nav-bar ul {
         display: block;
