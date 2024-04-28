@@ -25,9 +25,9 @@ header {
 .logo {
     color: #f1dac4;
     display: flex;
+    align-items: center;
 
     img {
-        
         margin-left: 20px;
         border-radius: 50%;
         width: 60px;
@@ -100,5 +100,26 @@ header {
     }
     .nav-bar {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    header {
+        padding: 0 20px;
+    }
+
+    .logo img {
+        width: 40px;
+    }
+
+    .text-container {
+        h1 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    
+        p {
+            font-size: 12px;
+        }
     }
 }
